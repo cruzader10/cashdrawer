@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#EB322B2B">
+    <TextView
+        android:id="@+id/drawer"
+        android:padding="2dp"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:background="#EB322B2B"
+        android:text="Drawer"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        />
+
+
+</RelativeLayout>

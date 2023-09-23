@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                android:id="@+id/btnSettings"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:background="#497E85"
+                android:drawableEnd="@drawable/back"
+                android:paddingRight="25dp"
+                android:textAlignment="center" />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="580dp"
+                    android:orientation="vertical">
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/cl1"
+                                android:layout_width="match_parent"
+                                android:layout_height="573dp"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp">
+
+                                <TextView
+                                    android:id="@+id/txtDrawer1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Drawer 1"
+                                    android:textColor="#DCDCDC"
+                                    android:textSize="18sp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <EditText
+                                    android:id="@+id/edtDrawer1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="24dp"
+                                    android:layout_marginEnd="24dp"
+                                    android:background="@color/white"
+                                    android:text="Drawer Name"
+                                    android:textColor="#322F2F"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/txtDrawer1" />
+
+                                <TextView
+                                    android:id="@+id/txtDrawer2"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Drawer 2"
+                                    android:textColor="#DCDCDC"
+                                    android:textSize="18sp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/edtDrawer1" />
+
+                                <EditText
+                                    android:id="@+id/edtDrawer2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="24dp"
+                                    android:layout_marginEnd="24dp"
+                                    android:background="@color/white"
+                                    android:text="Drawer Name"
+                                    android:textColor="#322F2F"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/txtDrawer2" />
+
+                                <TextView
+                                    android:id="@+id/txtDrawer3"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Drawer 3"
+                                    android:textColor="#DCDCDC"
+                                    android:textSize="18sp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/edtDrawer2" />
+
+                                <EditText
+                                    android:id="@+id/edtDrawer3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="25dp"
+                                    android:layout_marginEnd="24dp"
+                                    android:background="@color/white"
+                                    android:text="Drawer Name"
+                                    android:textColor="#322F2F"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/txtDrawer3" />
+
+                                <TextView
+                                    android:id="@+id/txtDrawer4"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_marginTop="25dp"
+                                    android:text="Drawer 4"
+                                    android:textColor="#DCDCDC"
+                                    android:textSize="18sp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/edtDrawer3" />
+
+                                <EditText
+                                    android:id="@+id/edtDrawer4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="24dp"
+                                    android:layout_marginTop="25dp"
+                                    android:layout_marginEnd="24dp"
+                                    android:background="@color/white"
+                                    android:text="Drawer Name"
+                                    android:textColor="#322F2F"
+                                    android:textSize="24sp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/txtDrawer4" />
+
+                                <Button
+                                    android:id="@+id/btnSave"
+                                    android:layout_width="150dp"
+                                    android:layout_height="55dp"
+                                    android:layout_marginTop="52dp"
+                                    android:layout_marginEnd="24dp"
+                                    android:layout_weight="1"
+                                    android:background="#497E85"
+                                    android:drawableEnd="@drawable/save"
+                                    android:paddingRight="25dp"
+                                    android:text="Save"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/edtDrawer4" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+            </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
